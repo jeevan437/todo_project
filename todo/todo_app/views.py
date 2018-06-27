@@ -3,7 +3,7 @@ from .models import todo_model
 # Create your views here.
 
 
-def index(request):  # Define our function, accept a request
+def index_view(request):  # Define our function, accept a request
 
     items = todo_model.objects.all()  # ORM queries the database for all of the to-do entries.
 
