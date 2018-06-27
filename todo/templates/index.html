@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to todo_app</title>
+</head>
+<body>
+<h2>Todo Activities</h2>
+
+{% for x in items %}
+<p>Task name :{{ x.task_name }} </p>
+<p>Task Description:{{ x.task_description}} </p>
+<p>Task Status:{{ task_status }}</p>
+<hr />
+{% endfor %}
+
+</body>
+</html>
