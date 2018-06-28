@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 STATUS_CHOICES = (
-    ('PARKED', 'PARKED'),
+    ('PARKED', 'Parked'),
     ('STARTED', 'Started'),
     ('FINISHED','Finished')
 )
